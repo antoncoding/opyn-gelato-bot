@@ -4,7 +4,7 @@ import "./IGelatoCondition.sol";
 import "../opyn/IOracle.sol";
 import "../libs/SafeMath.sol";
 
-contract ConditionKyberRateKovan is IGelatoCondition {
+contract ConditionOracleRate is IGelatoCondition {
 
     IOracle oracle;
     using SafeMath for uint256;
