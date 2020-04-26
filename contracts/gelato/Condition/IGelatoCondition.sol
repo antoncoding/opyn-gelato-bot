@@ -1,3 +1,5 @@
+// https://github.com/gelatodigital/gelato-test-kit/blob/master/Condition/IGelatoCondition.sol
+
 pragma solidity ^0.5.0;
 
 /// @title IGelatoCondition - solidity interface of GelatoConditionsStandard

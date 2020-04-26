@@ -1,9 +1,11 @@
+// https://github.com/gelatodigital/gelato-test-kit/blob/master/Core/IGelatoCore.sol
+
 pragma solidity ^0.5.0;
 
-import "../GelatoCoreEnums.sol";
+import "./GelatoCoreEnums.sol";
 import "./IGelatoUserProxy.sol";
-import "../../conditions/IGelatoCondition.sol";
-import "../../actions/IGelatoAction.sol";
+import "../Condition/IGelatoCondition.sol";
+import "../Action/IGelatoAction.sol";
 
 /// @title IGelatoCore - solidity interface of GelatoCore
 /// @notice canExecute API and minting, execution, cancellation of ExecutionClaims

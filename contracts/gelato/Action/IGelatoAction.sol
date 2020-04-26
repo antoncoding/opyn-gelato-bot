@@ -1,3 +1,5 @@
+// https://github.com/gelatodigital/gelato-test-kit/blob/master/Action/IGelatoAction.sol
+
 pragma solidity ^0.5.0;
 
 /// @title IGelatoAction - solidity interface of GelatoActionsStandard
@@ -32,22 +34,4 @@ interface IGelatoAction {
         external
         view
         returns(string memory);
-
-    /// All actions must override this with their own implementation
-    /*function getUsersSendTokenBalance(
-        address _user,
-        address _userProxy,
-        address _source,
-        uint256 _sourceAmount,
-        address _destination,
-        ...
-    )
-        external
-        view
-        override
-        virtual
-        returns(uint256 userSrcBalance);
-    getUsersSendTokenBalance not defined here because non-overridable, due to
-    different arguments passed across different actions
-    */
 }
